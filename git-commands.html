@@ -15,16 +15,17 @@
       Link your local project to a git repository: git remote add origin
       [REPOSITORY_URL]
     </p>
+    <p>Create New Branch in local: git branch [BRANCH_NAME]</p>
     <p>
       If a branch does not exists in git reposiory and you want to create branch
       and push it: git push --set-upstream origin [BRANCH_NAME]
     </p>
-    <p>Create New Branch in local: git branch [BRANCH_NAME]</p>
     <p>
-      How to revert code in repository without losing it? 1. go to previous
-      commit: git reset [PREV_COMMIT] 2. stash the commit that is causing issue:
-      git stash 3. now, for push the prev commit to reposiory: git push -f 4.
-      now, get back our changes in local: git stash pop
+      How to revert code in repository without losing it? <br />
+      1. go to previous commit: git reset [PREV_COMMIT] <br />
+      2. stash the commit that is causing issue: git stash <br />
+      3. now, for push the prev commit to reposiory: git push -f <br />
+      4. now, get back our changes in local: git stash pop
     </p>
     <p>Fetch all branches: git fetch</p>
     <p>Fetch all branches incluing deleted branches: git fetch --all --prune</p>
